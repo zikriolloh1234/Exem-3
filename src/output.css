@@ -945,6 +945,14 @@ video {
     margin-bottom: 20px;
   }
 
+  .md\:ml-\[30\] {
+    margin-left: 30;
+  }
+
+  .md\:ml-\[30px\] {
+    margin-left: 30px;
+  }
+
   .md\:block {
     display: block;
   }
@@ -955,6 +963,14 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:h-\[\] {
+    height: ;
+  }
+
+  .md\:h-\[80vh\] {
+    height: 80vh;
   }
 
   .md\:w-\[100\%\] {
@@ -999,5 +1015,9 @@ video {
 
   .md\:flex-col-reverse {
     flex-direction: column-reverse;
+  }
+
+  .md\:place-items-center {
+    place-items: center;
   }
 }
